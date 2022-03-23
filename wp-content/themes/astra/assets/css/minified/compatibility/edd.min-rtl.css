@@ -25,14 +25,14 @@
 .single-download .entry-header {margin-bottom: 1em;}
 .single-download .edd_download_purchase_form .edd_price_options li {justify-content: flex-start;}
 .single-download .edd_download_purchase_form .edd_purchase_submit_wrapper {margin: 20px auto 0;}
-.edd-checkout .edd-item-quantity, .single-download .edd-item-quantity {padding: .5em .5em;}
+.edd-checkout .edd-item-quantity, .single-download .edd-item-quantity {padding: .5em;}
 .ast-edd-archive-article {text-align: center;}
 .ast-edd-archive-block-wrap .edd_download_image img, .edd_downloads_list .edd_download_image img {margin-bottom: .8em;}
 .ast-edd-archive-block-wrap .edd_download_title, .edd_downloads_list .edd_download_title {margin-bottom: .5em;padding: 0;font-size: 1em;}
 .ast-edd-archive-block-wrap .edd_price, .ast-edd-archive-block-wrap .edd_price_options, .edd_downloads_list .edd_price, .edd_downloads_list .edd_price_options {line-height: 1.3;margin-bottom: 0;margin-bottom: .5em;font-weight: 700;font-size: .9rem;}
 .ast-edd-archive-block-wrap .ast-edd-variable-btn, .ast-edd-archive-block-wrap .edd-add-to-cart, .ast-edd-archive-block-wrap .edd_go_to_checkout, .edd_downloads_list .ast-edd-variable-btn, .edd_downloads_list .edd-add-to-cart, .edd_downloads_list .edd_go_to_checkout {margin-top: .5em;margin-bottom: .5em;white-space: normal;line-height: 1.3;display: inline-block;}
 .ast-edd-archive-block-wrap .edd_download_excerpt p, .edd_downloads_list .edd_download_excerpt p {margin-bottom: .5em;}
-.ast-edd-archive-block-wrap .edd_download_quantity_wrapper .edd-item-quantity, .edd_downloads_list .edd_download_quantity_wrapper .edd-item-quantity {padding: .5em .5em;max-width: 60px;}
+.ast-edd-archive-block-wrap .edd_download_quantity_wrapper .edd-item-quantity, .edd_downloads_list .edd_download_quantity_wrapper .edd-item-quantity {padding: .5em;max-width: 60px;}
 .ast-edd-archive-block-wrap .edd_download_quantity_wrapper+.edd_purchase_submit_wrapper, .edd_downloads_list .edd_download_quantity_wrapper+.edd_purchase_submit_wrapper {margin-top: 0;}
 .ast-edd-download-categories {font-size: .85em;margin-bottom: .5em;display: block;line-height: 1.3;opacity: .6;}
 .edd_download_purchase_form .edd_purchase_submit_wrapper {margin: 10px auto 0;}
@@ -88,8 +88,8 @@
 .ast-edd-site-header-cart .widget_edd_cart_widget .cart_item.empty {border-bottom: 0;padding-right: 1.5em;padding-left: 1.5em;}
 .ast-edd-site-header-cart .widget_edd_cart_widget .edd-cart-number-of-items {margin-bottom: 0;padding-right: 1.5em;padding-left: 1.5em;padding-bottom: 1em;text-align: center;}
 .ast-edd-site-header-cart .widget_edd_cart_widget:after, .ast-edd-site-header-cart .widget_edd_cart_widget:before {bottom: 100%;right: auto;left: 8px;border: solid transparent;content: " ";height: 0;width: 0;position: absolute;pointer-events: none;}
-.ast-edd-site-header-cart .widget_edd_cart_widget:after {border-color: rgba(255,255,255,0);border-bottom-color: #fff;border-width: 6px;margin-right: -6px;margin-bottom: -.3px;}
-.ast-edd-site-header-cart .widget_edd_cart_widget:before {border-color: rgba(230,230,230,0);border-bottom-color: #e6e6e6;border-width: 9px;margin-right: -5px;left: 5px;}
+.ast-edd-site-header-cart .widget_edd_cart_widget:after {border-color: transparent;border-bottom-color: #fff;border-width: 6px;margin-right: -6px;margin-bottom: -.3px;}
+.ast-edd-site-header-cart .widget_edd_cart_widget:before {border-color: transparent;border-bottom-color: #e6e6e6;border-width: 9px;margin-right: -5px;left: 5px;}
 .ast-edd-site-header-cart .widget_edd_cart_widget .edd-cart-meta {padding: .5em 1.5em;margin: 0;text-align: center;}
 .ast-edd-site-header-cart .widget_edd_cart_widget .edd_checkout {padding: 1em 1.5em 0;text-align: center;margin-top: 0;}
 .ast-edd-site-header-cart .widget_edd_cart_widget .edd_checkout a {padding: 10px 40px;width: 100%;display: block;font-weight: 700;line-height: 1;}
