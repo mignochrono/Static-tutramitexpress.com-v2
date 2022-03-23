@@ -1,7 +1,7 @@
 .fade {opacity: 0;-webkit-transition: opacity .15s linear;-o-transition: opacity .15s linear;transition: opacity .15s linear;}
 .fade.in {opacity: 1;}
-[data-toggle=buttons]>.btn input[type=radio], [data-toggle=buttons]>.btn-group>.btn input[type=radio], [data-toggle=buttons]>.btn input[type=checkbox], [data-toggle=buttons]>.btn-group>.btn input[type=checkbox] {position: absolute;clip: rect(0,0,0,0);pointer-events: none;}
-.close {float: right;font-size: 21px;font-weight: 700;line-height: 1;color: #000;text-shadow: 0 1px 0 #fff;}
+[data-toggle="buttons"] > .btn input[type="radio"], [data-toggle="buttons"] > .btn-group > .btn input[type="radio"], [data-toggle="buttons"] > .btn input[type="checkbox"], [data-toggle="buttons"] > .btn-group > .btn input[type="checkbox"] {position: absolute;clip: rect(0,0,0,0);pointer-events: none;}
+.close {float: right;font-size: 21px;font-weight: bold;line-height: 1;color: #000;text-shadow: 0 1px 0 #fff;}
 .close:hover, .close:focus {color: #000;text-decoration: none;cursor: pointer;}
 .modal-content .close {background-color: transparent !important;}
 button.close:hover {filter: alpha(opacity=50);opacity: .5;}
@@ -20,12 +20,12 @@ button.close {-webkit-appearance: none;padding: 5px;cursor: pointer;border: 0;po
 .modal-header .close {margin-top: -2px;}
 .modal-body {position: relative;}
 .modal-footer {padding: 15px;text-align: right;border-top: 1px solid #e5e5e5;}
-.modal-footer .btn+.btn {margin-bottom: 0;margin-left: 5px;}
-.modal-footer .btn-group .btn+.btn {margin-left: -1px;}
-.modal-footer .btn-block+.btn-block {margin-left: 0;}
-@media (min-width:768px) {.modal-dialog {margin: 30px auto;}
+.modal-footer .btn + .btn {margin-bottom: 0;margin-left: 5px;}
+.modal-footer .btn-group .btn + .btn {margin-left: -1px;}
+.modal-footer .btn-block + .btn-block {margin-left: 0;}
+@media (min-width: 768px) {.modal-dialog {margin: 30px auto;}
 	.modal-content {-webkit-box-shadow: 0 5px 15px rgba(0,0,0,.5);box-shadow: 0 5px 15px rgba(0,0,0,.5);}
 	.modal-sm {width: 300px;}}
-@media (min-width:992px) {.modal-lg {width: 900px;}}
+@media (min-width: 992px) {.modal-lg {width: 900px;}}
 .hide {display: none !important;}
 .show {display: block !important;}
