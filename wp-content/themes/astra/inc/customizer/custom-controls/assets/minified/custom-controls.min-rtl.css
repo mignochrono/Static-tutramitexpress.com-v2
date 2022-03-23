@@ -24,12 +24,12 @@
 .customize-control-ast-background .background-container h4 {font-weight: 400;}
 .customize-control-ast-background .background-attachment h4, .customize-control-ast-background .background-color h4, .customize-control-ast-background .background-position h4, .customize-control-ast-background .background-repeat h4, .customize-control-ast-background .background-size h4 {margin-bottom: 5px;margin-top: 10px;}
 .customize-control-ast-background .background-color {margin-bottom: 12px;}
-.customize-control-ast-background .background-repeat {margin: 15px 0 8px 0;}
+.customize-control-ast-background .background-repeat {margin: 15px 0 8px;}
 .customize-control-ast-background .background-attachment .buttonset, .customize-control-ast-background .background-size .buttonset {display: flex;flex-wrap: wrap;}
 .customize-control-ast-background .background-attachment .buttonset .switch-label, .customize-control-ast-background .background-size .buttonset .switch-label {background: #fff;border: 1px solid rgba(0,0,0,.1);color: #555;padding: 2px 4px;margin-left: 15px;text-align: center;flex-grow: 1;transition: background-color 140ms linear;}
 .customize-control-ast-background .background-attachment .buttonset .switch-label:last-child, .customize-control-ast-background .background-size .buttonset .switch-label:last-child {margin-left: 0;}
 .customize-control-ast-background .background-attachment .buttonset .switch-input:checked+.switch-label, .customize-control-ast-background .background-attachment .buttonset .switch-input[checked=checked]+.switch-label, .customize-control-ast-background .background-size .buttonset .switch-input:checked+.switch-label, .customize-control-ast-background .background-size .buttonset .switch-input[checked=checked]+.switch-label {background-color: #f5f5f5;color: #565e67;}
-.customize-control-ast-background .more-settings {margin-top: 12px;display: inline-block;padding: 5px 0 5px 0;float: left;}
+.customize-control-ast-background .more-settings {margin-top: 12px;display: inline-block;padding: 5px 0;float: left;}
 .customize-control-ast-background .more-settings:focus {outline: 0;box-shadow: none;}
 .customize-control-ast-background .arrow-icon {margin-right: 5px;}
 .ast-field-settings-modal .customize-control-ast-background .more-settings {margin-top: 6px;}
@@ -67,7 +67,7 @@
 .customize-control-ast-divider .customize-control-title {font-size: 15px;margin: 1em 0 .2em;}
 .ast-field-settings-modal .customize-control-ast-divider {background-color: #f5f5f5;display: block;padding: 6px 14px;margin: 0;border-width: 1px 0;border-style: solid;border-color: #ddd;line-height: 1;margin-top: 15px;}
 .ast-field-settings-modal .customize-control-ast-divider .customize-control-title {font-weight: 500;letter-spacing: 1px;font-size: 11px;margin: 0;text-transform: uppercase;}
-.ast-field-settings-wrap .customize-control-ast-heading {margin: 0 0 15px 0;}
+.ast-field-settings-wrap .customize-control-ast-heading {margin: 0 0 15px;}
 .accordion-section-content.open .customize-control-ast-heading:nth-child(2), .accordion-section-content.open .customize-control-ast-heading:nth-child(3) {margin-top: 0;}
 .customize-control-ast-heading {margin-top: 20px;margin-bottom: 8px;}
 .customize-control-ast-heading .ast-heading-wrapper {margin: 0 -12px;}
@@ -168,7 +168,7 @@
 .ast-group-tabs, .ast-tab-content {position: relative;}
 .ast-group-list {overflow: hidden;border-bottom: 1px solid #ddd;}
 .ast-group-list:after, .ast-group-list:before {content: "";display: table;border-collapse: collapse;}
-.ui-tabs-anchor {float: right;padding: .5em .5em;color: #555d66;text-decoration: none;}
+.ui-tabs-anchor {float: right;padding: .5em;color: #555d66;text-decoration: none;}
 .ui-state-active .ui-tabs-anchor {color: #fff;}
 .ui-tabs-anchor:hover {color: #555d66;}
 .ui-state-active .ui-tabs-anchor:hover {color: #fff;}
@@ -179,8 +179,8 @@
 .ast-field-settings-wrap .ast-field-settings-modal {border-radius: 3px;margin-top: 9px;margin-bottom: 20px;}
 .ast-field-settings-modal::before {content: "";position: absolute;top: -17px;left: 8px;border: 9px solid transparent;border-bottom-color: #fff;pointer-events: none;}
 #customize-theme-controls .control-section-ast_section.open {height: 100%;}
-.ast-group-tabs .ui-tabs-nav {display: flex;padding: 15px 15px 0 15px;}
-.ast-group-tabs .ui-tabs-nav .ui-corner-top {align-items: center;flex: 1 1 auto;justify-content: center;margin: 0 0;padding: 0;border: 1px solid #ccc;transition: background-color 140ms linear;}
+.ast-group-tabs .ui-tabs-nav {display: flex;padding: 15px 15px 0;}
+.ast-group-tabs .ui-tabs-nav .ui-corner-top {align-items: center;flex: 1 1 auto;justify-content: center;margin: 0;padding: 0;border: 1px solid #ccc;transition: background-color 140ms linear;}
 .ast-group-tabs .ui-tabs-nav .ui-corner-top:first-child {border-radius: 0 3px 3px 0;}
 .ast-group-tabs .ui-tabs-nav .ui-corner-top:last-child {border-radius: 3px 0 0 3px;}
 .ast-group-tabs .ui-tabs-nav .ui-corner-top .ui-tabs-anchor {width: 100%;text-align: center;padding: 2px 4px;padding-right: 0;padding-left: 0;outline: 0;}
