@@ -5,9 +5,9 @@
 .customize-control-ast-slider input[type=range]::-webkit-slider-thumb {-webkit-appearance: none;-webkit-appearance: none;width: 15px;width: 15px;height: 15px;height: 15px;border-radius: 50%;border-radius: 50%;-webkit-border-radius: 50%;background-color: #3498d9;background-color: #3498d9;border: none;}
 .customize-control-ast-slider input[type=range]::-moz-range-thumb {width: 15px;height: 15px;border: none;border-radius: 50%;background-color: #3498d9;}
 .customize-control-ast-slider input[type=range]::-ms-thumb {width: 15px;height: 15px;border-radius: 50%;border: 0;background-color: #3498d9;}
-.customize-control-ast-slider input[type=range]::-moz-range-track {border: inherit;background: transparent;}
-.customize-control-ast-slider input[type=range]::-ms-track {border: inherit;color: transparent;background: transparent;}
-.customize-control-ast-slider input[type=range]::-ms-fill-lower, .customize-control-ast-slider input[type=range]::-ms-fill-upper {background: transparent;}
+.customize-control-ast-slider input[type=range]::-moz-range-track {border: inherit;background: 0 0;}
+.customize-control-ast-slider input[type=range]::-ms-track {border: inherit;color: transparent;background: 0 0;}
+.customize-control-ast-slider input[type=range]::-ms-fill-lower, .customize-control-ast-slider input[type=range]::-ms-fill-upper {background: 0 0;}
 .customize-control-ast-slider input[type=range]::-ms-tooltip {display: none;}
 .customize-control-ast-slider .astra_range_value {font-size: 14px;padding: 0 0 0 5px;font-weight: 400;position: relative;}
 .customize-control-ast-slider .ast-slider-reset {color: rgba(0,0,0,.2);position: absolute;top: -28px;right: 0;display: inline-block;-webkit-transition: color .5s ease-in;-moz-transition: color .5s ease-in;-ms-transition: color .5s ease-in;-o-transition: color .5s ease-in;transition: color .5s ease-in;}
