@@ -65,7 +65,7 @@
 .woocommerce table.cart td.actions .coupon, .woocommerce #content table.cart td.actions .coupon, .woocommerce-page table.cart td.actions .coupon, .woocommerce-page #content table.cart td.actions .coupon {float: right;display: flex;margin: 0 auto;}
 .woocommerce table.cart td.actions .coupon label, .woocommerce #content table.cart td.actions .coupon label, .woocommerce-page table.cart td.actions .coupon label, .woocommerce-page #content table.cart td.actions .coupon label {display: none;}
 .woocommerce table.cart td.actions .button, .woocommerce #content table.cart td.actions .button, .woocommerce-page table.cart td.actions .button, .woocommerce-page #content table.cart td.actions .button {margin-right: 5px;}
-@media (min-width: 545px) {.woocommerce table.cart td.actions > input[type="submit"], .woocommerce #content table.cart td.actions > input[type="submit"], .woocommerce-page table.cart td.actions > input[type="submit"], .woocommerce-page #content table.cart td.actions > input[type="submit"] {margin: 5px auto;}}
+@media (min-width:545px) {.woocommerce table.cart td.actions>input[type=submit], .woocommerce #content table.cart td.actions>input[type=submit], .woocommerce-page table.cart td.actions>input[type=submit], .woocommerce-page #content table.cart td.actions>input[type=submit] {margin: 5px auto;}}
 .woocommerce .cart-collaterals, .woocommerce-page .cart-collaterals {width: 100%;}
 .woocommerce .cart-collaterals::before, .woocommerce .cart-collaterals::after, .woocommerce-page .cart-collaterals::before, .woocommerce-page .cart-collaterals::after {content: " ";display: table;}
 .woocommerce .cart-collaterals::after, .woocommerce-page .cart-collaterals::after {clear: both;}
