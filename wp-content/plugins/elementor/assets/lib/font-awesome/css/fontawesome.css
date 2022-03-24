@@ -14,7 +14,7 @@
 .fa-10x {font-size: 10em;}
 .fa-fw {text-align: center;width: 1.25em;}
 .fa-ul {list-style-type: none;margin-left: 2.5em;padding-left: 0;}
-.fa-ul > li {position: relative;}
+.fa-ul>li {position: relative;}
 .fa-li {left: -2em;position: absolute;text-align: center;width: 2em;line-height: inherit;}
 .fa-border {border: solid .08em #eee;border-radius: .1em;padding: .2em .25em .15em;}
 .fa-pull-left {float: left;}
